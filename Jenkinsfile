@@ -5,7 +5,7 @@ pipeline{
 			steps{
 				sh 'apt update -y'
 				sh 'apt upgrade -y'
-				sh 'apt install docker.io docker-compose-v2 -y'
+				sh 'apt install docker.io docker-compose -y'
 			}
 		}
 		stage("Stage1"){
